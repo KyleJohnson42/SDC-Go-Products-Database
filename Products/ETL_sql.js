@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { Client } = require('pg');
 const copyFrom = require('pg-copy-streams').from;
-const DB = require('../config');
+const DB = require('./config');
 
 const connectionString = `postgres://${DB.DB_USERNAME}:${DB.DB_PASSWORD}@localhost:5432/${DB.DB_NAME}`;
 const client = new Client(connectionString);

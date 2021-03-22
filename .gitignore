@@ -1,3 +1,5 @@
 node_modules
 config.js
 sdc-go-products.pem
+newrelic.js
+newrelic_agent.log
